@@ -18,10 +18,42 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+    hat(); 
+    ball();
+    double2();
+    ball();
+    double2();
+    ball();
+    
+		
 	}
+	public static void hat()  {
+	    System.out.println("     /\\___@____/\\");                 
+	    System.out.println("     |   $  __  $  |");
+	    System.out.println("     <_____________>");
+	    System.out.println("    |___||||||||||___|");
+	    System.out.println("   _|____||||||||____|_");
+	    System.out.println("  // |_____||||||_____| \\\\");
+	    System.out.println(" //  |_____ ||||______|  \\\\");
+	    System.out.println("//   |_______||_______|   \\\\");
+	    System.out.println("||   |________|_______|     ||");
+	}
+	public static void ball()  {
+		System.out.println("                          /-----\\ ");
+		System.out.println("                         |-------| ");
+	    System.out.println("                         | Ap sc |     ");
+	    System.out.println("                          \\----/ ");
+	}
+	public static void double2()  {
+	    System.out.println("                                    /\\___@____/\\");
+	    System.out.println("                                    |   $  __  $  |");
+	    System.out.println("                               ||   <_____________>");
+	    System.out.println("                               ||  |___||||||||||___|");
+	    System.out.println("                               || _|____||||||||____|_");
+	    System.out.println("                               \\  |_____||||||_____| \\\\");
+	    System.out.println("                                \\ |_____ ||||______|  \\\\");
+	    System.out.println("                                 \\|_______||_______|   \\\\");
+	    System.out.println("                                   |________|_______|    ||");
+	}
+	
 }
